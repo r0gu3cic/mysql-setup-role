@@ -1,0 +1,8 @@
+---
+- name: Setup MySQL server
+  import_tasks: mysql_setup.yml
+  when: ansible_facts['distribution'] | lower == 'ubuntu'
+
+# - name: Setup WP CLI
+#   import_tasks: wp_cli_setup.yml
+#   when: ansible_facts['distribution'] | lower == 'ubuntu'
