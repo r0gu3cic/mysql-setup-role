@@ -1,4 +1,4 @@
-# PHP-SETUP-ROLE
+# MySQL-SETUP-ROLE
 
 =========
 
